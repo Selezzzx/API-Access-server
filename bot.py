@@ -4,7 +4,7 @@ import os
 import sqlite3
 import telebot
 
-token = "6560702698:AAEnVRPy46l1frPvZXRry-TKl6PyGwH91Fk"
+token = "YOUR-TOKEN-HERE"
 bot = telebot.TeleBot(token)
 
 db = sqlite3.connect("data.db")
